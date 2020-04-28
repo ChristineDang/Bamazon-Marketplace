@@ -36,7 +36,7 @@ SCREENSHOTS:
 2. bamazonCustomer.js purchasing product
 ![Screen Shot 2020-04-27 at 8 14 37 PM](https://user-images.githubusercontent.com/59538550/80433182-3d33e480-88c4-11ea-9fb2-198db977a772.png)
 
-3. bamazonCustomer.js MySQL Inventory Update
+3. bamazonCustomer.js MySQL Inventory Update                                                                                  
 ![Screen Shot 2020-04-27 at 8 15 08 PM](https://user-images.githubusercontent.com/59538550/80433215-4f158780-88c4-11ea-849d-20ea9a402920.png)
 
 ![Screen Shot 2020-04-27 at 8 15 42 PM](https://user-images.githubusercontent.com/59538550/80433219-50df4b00-88c4-11ea-976f-1a2966d28597.png)
@@ -59,7 +59,7 @@ SCREENSHOTS:
 
 DEPLOYED LINK:
 
-https://christinedang.github.io/Bamazon-Marketplace
+https://christinedang.github.io/Bamazon-Marketplace/
 
 TECHNOLOGIES USED:
 * Inquirer@7.1.0 or a higher version
