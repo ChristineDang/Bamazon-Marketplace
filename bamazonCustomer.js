@@ -3,7 +3,7 @@ var prompt = require("prompt");
 var connect = mysql.createConnection({
     host: "127.0.0.1",
     user: "root",
-    password: "NewYearBetterMe952020!",
+    password: "**********************",
     database: "bamazon",
     insecureAuth: true
 });
@@ -33,7 +33,7 @@ function afterConnection(){
                     }else{
                             console.log(`The item you've selected is ${product.product_name}`);
                             var updateQ = product.stock_quantity - result.NumberofUnits;
-                            connect.query("UPDATE product SET stock_quantity = ? WHERE item_id = ?", [updateQ, result.ProductID], function(error, results){
+                            connect.query("UPDATE product SET stock_quantity = ? WHERE item_id = ?", [updateQ, result.productID], function(error, results){
                                 if(error) throw error;
 
                             var totalCost = result.NumberofUnits * product.price
